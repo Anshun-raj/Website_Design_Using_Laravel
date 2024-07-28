@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+    width: 100%;
+    height: 648px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+}
+
+.about h2 {
+    color: red;
+    font-weight: bold;
+    font-size: 34px;
+    padding-bottom: 10px;
+}
+
+.about .aboutInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.about .aboutInfo .aboutLeft {
+    width: 45%;
+}
+
+.about .aboutInfo .aboutLeft img {
+    width: 350px;
+    border-radius: 5px;
+}
+
+.about .aboutInfo .aboutRight {
+    width: 45%;
+}
+
+.about .aboutInfo .aboutRight h3 {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 5px;
+}
